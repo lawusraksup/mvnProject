@@ -1,0 +1,12 @@
+com\mvnProject\pages\HomePage.class
+com\mvnProject\pages\NewContactPage.class
+com\mvnProject\pages\SignUpPage.class
+com\mvnProject\testdata\NewContactTestData.class
+com\mvnProject\util\TestUtil.class
+com\mvnProject\util\ExcelUtils.class
+com\mvnProject\util\WebEventListener.class
+com\mvnProject\pages\LoginPage.class
+com\mvnProject\pages\ContactsPage.class
+com\mvnProject\base\baseClass.class
+com\mvnProject\ExtendReportListener\ExtentReporterNG.class
+com\mvnProject\util\testListener.class

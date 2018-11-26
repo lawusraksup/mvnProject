@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mvnProject]">
+  <listeners>
+    <listener class-name="com.mvnProject.util.testListener"/>
+    <listener class-name="com.mvnProject.ExtendReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="mvnProjectTest(failed)">
+    <classes>
+      <class name="com.mvnProject.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mvnProject.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- mvnProjectTest(failed) -->
+</suite> <!-- Failed suite [mvnProject] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.mvnProject.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mvnProject.testcases.LoginPageTest -->
+      <class name="com.mvnProject.testcases.NewContactPageTest">
+        <methods>
+          <include name="userLogin"/>
+          <include name="tearDown"/>
+          <include name="NewContactPageCreateNewContactTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mvnProject.testcases.NewContactPageTest -->
+      <class name="com.mvnProject.testcases.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="userLogin"/>
+        </methods>
+      </class> <!-- com.mvnProject.testcases.ContactsPageTest -->
+      <class name="com.mvnProject.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="userLogin"/>
+        </methods>
+      </class> <!-- com.mvnProject.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

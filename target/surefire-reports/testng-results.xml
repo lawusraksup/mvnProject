@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mvnProject" duration-ms="11422" started-at="2018-11-25T17:57:32Z" finished-at="2018-11-25T17:57:44Z">
+    <groups>
+    </groups>
+    <test name="mvnProjectTest" duration-ms="11422" started-at="2018-11-25T17:57:32Z" finished-at="2018-11-25T17:57:44Z">
+      <class name="com.mvnProject.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@7225790e]" name="setUp" is-config="true" duration-ms="10023" started-at="2018-11-25T11:57:32Z" finished-at="2018-11-25T11:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@7225790e]" name="LoginPageTitleTest" duration-ms="22" started-at="2018-11-25T11:57:42Z" finished-at="2018-11-25T11:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@7225790e]" name="tearDown" is-config="true" duration-ms="1363" started-at="2018-11-25T11:57:42Z" finished-at="2018-11-25T11:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mvnProject.testcases.LoginPageTest -->
+    </test> <!-- mvnProjectTest -->
+  </suite> <!-- mvnProject -->
+</testng-results>
