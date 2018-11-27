@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="mvnProject" duration-ms="10740" started-at="2018-11-25T18:53:25Z" finished-at="2018-11-25T18:53:36Z">
+  <suite name="mvnProject" duration-ms="11701" started-at="2018-11-27T00:13:33Z" finished-at="2018-11-27T00:13:45Z">
     <groups>
     </groups>
-    <test name="mvnProjectTest" duration-ms="10740" started-at="2018-11-25T18:53:25Z" finished-at="2018-11-25T18:53:36Z">
+    <test name="mvnProjectTest" duration-ms="11701" started-at="2018-11-27T00:13:33Z" finished-at="2018-11-27T00:13:45Z">
       <class name="com.mvnProject.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@3f0ee7cb]" name="setUp" is-config="true" duration-ms="8416" started-at="2018-11-25T12:53:25Z" finished-at="2018-11-25T12:53:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@3f0ee7cb]" name="setUp" is-config="true" duration-ms="9684" started-at="2018-11-26T18:13:33Z" finished-at="2018-11-26T18:13:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="LoginPageTitleTest()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@3f0ee7cb]" name="LoginPageTitleTest" duration-ms="22" started-at="2018-11-25T12:53:34Z" finished-at="2018-11-25T12:53:34Z">
+        <test-method status="FAIL" signature="LoginPageTitleTest()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@3f0ee7cb]" name="LoginPageTitleTest" duration-ms="22" started-at="2018-11-26T18:13:43Z" finished-at="2018-11-26T18:13:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="1269" started-at="2018-11-25T12:53:35Z" finished-at="2018-11-25T12:53:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvnProject.testcases.LoginPageTest@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="1166" started-at="2018-11-26T18:13:44Z" finished-at="2018-11-26T18:13:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

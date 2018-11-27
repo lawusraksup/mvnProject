@@ -41,8 +41,8 @@ public class LoginPageTest extends baseClass{
 	public void LoginPageTitleTest(){
 		String loginpagetitle = loginpage.LoginPageTitle();
 		String expectedtitle = testUtil.LOGIN_PAGE_TITLE;
-		Assert.assertTrue(false);
-		//Assert.assertEquals(loginpagetitle,expectedtitle );
+		//Assert.assertTrue(false);
+		Assert.assertEquals(loginpagetitle,expectedtitle );
 	}
 	
 	@Test (enabled = false)
