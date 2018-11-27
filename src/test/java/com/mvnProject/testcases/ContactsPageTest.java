@@ -42,7 +42,7 @@ public class ContactsPageTest extends baseClass {
 	@Test
 	public void ContactPageSelectMultipleContactTest(){
 		contactspage.ContacsPageSelectCheckBox("abc xyz");
-		contactspage.ContacsPageSelectCheckBox("me myself");
+		contactspage.ContacsPageSelectCheckBox("Lara lara");
 		
 	}
 	
